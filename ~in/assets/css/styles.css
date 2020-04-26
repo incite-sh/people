@@ -1,0 +1,124 @@
+body {
+  font-family: 'Baloo Tamma 2', cursive;
+  background-color: #305B90;
+}
+
+.image {
+  width:120px;
+  height:120px;
+  background-image:url(../imgs/~in.jpg);
+  background-size:cover;
+  border-radius:50%;
+  background-repeat:no-repeat;
+  background-position:center center;
+  margin: -60px auto 20px;
+  box-shadow: inset 0 0 10px 0 rgba(0,0,0,.2), 0 0 2px 0 rgba(0,0,0,.1);
+}
+
+.content {
+  max-width: 620px;
+  /* max-width: calc(100vw - 10px); */
+  text-align: center;
+  background-color: #fff;
+  border-radius: 4px;
+  margin: auto;
+  margin-top: 150px;
+  padding: 5px 50px 10px;
+}
+
+.head {
+  box-sizing: border-box;
+}
+
+.headline {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.name {
+  font-size: 20px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin: 0;
+  color: #333;
+}
+
+.tag {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin: 0;
+}
+
+.summary-wrap {
+  padding: 30px 0 40px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.action-btn-wrap{
+  box-sizing: border-box;
+  padding: 0 20px;
+  max-width: 440px;
+  width: 100%;
+}
+
+.action-btn {
+  background-color:#305B90;
+  border-color:#305B90;
+  color: #fff;
+  box-shadow: inset 0 0 0 100px hsla(0,0%,100%,0);
+  font-size: 18px;
+  line-height: 48px;
+  padding: 4px 30px 0;
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+  white-space: nowrap;
+  user-select: none;
+  border: 1px solid #ccc;
+  width: 90%;
+  margin-bottom: 25px;
+}
+
+.bi {
+  margin-top: -2px;
+  margin-right: 4px;
+}
+
+.summary {
+  padding: 0 18px;
+}
+
+.footer { 
+  padding-top: 15px;
+}
+
+.footer svg {
+  fill: #999;
+  height: 32px;
+}
+
+ul { margin: 0; padding: 0; display: inline; list-style: none; }
+
+ul li { margin: 0; padding: 5px; display: inline; }
+
+a {
+  text-decoration: none!important;
+}
+
+a:hover {
+  text-decoration: none!important;
+  color: #fff;
+}
+
+@media (max-width: 576px) { 
+  .content {
+    margin-top: 18%;
+    background-color: #ccc;
+  }
+}
